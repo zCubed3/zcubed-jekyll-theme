@@ -1,0 +1,32 @@
+<html>
+
+{%- include head.html -%}
+
+<body>
+    <div class="flex_row" style="gap: 1em; padding: 0em;">
+        {%- include navigator.html 
+        
+            title = "Portfolio"
+            href = "/"
+
+        %}
+
+        {%- include navigator.html 
+        
+            title = "Blog"
+            href = "/posts.html" 
+
+        %}
+    </div>
+
+    <hr/>
+
+    <div>
+        {{content}}
+    </div>
+    
+
+    {%- include footer.html -%}
+</body>
+
+</html>

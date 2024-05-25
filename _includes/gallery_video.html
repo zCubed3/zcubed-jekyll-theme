@@ -1,0 +1,10 @@
+<div class="flex_row">
+  <project_card class="video_card">
+      <h2 class="centered">{{include.title}}</h2>
+      <video class="rounded" width="640" loop controls>
+          <source src="{{include.url}}" type="video/mp4">
+          <!-- TODO: VP9 and such -->
+          Sorry your browser doesn't support MPEG4 video playback!
+      </video>
+  </project_card>
+</div>
