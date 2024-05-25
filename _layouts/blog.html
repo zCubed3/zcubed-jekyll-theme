@@ -16,11 +16,11 @@ layout: base
         </a>
       </span>
     </h3>
-  
+
     {%- if site.show_excerpts -%}
-      <p>
-        {{ post.excerpt }}
-      </p>
+    <p>
+      {{ post.excerpt }}
+    </p>
     {%- endif -%}
   </project_card>
 </div>
@@ -29,10 +29,10 @@ layout: base
 {% endcapture %}
 
 
-{% include experience_block.html 
-    
-  title="Blog Posts"
+{% include experience_block.html
 
-  content=blog_posts 
+title="Blog Posts"
+
+content=blog_posts
 
 %}

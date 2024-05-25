@@ -52,13 +52,7 @@ div.flex_row {
 }
 
 canvas.mandlebrot {
-    background: rgb(21, 14, 41);
-    padding: 10px;
-
-    filter: drop-shadow(-0.2em 0.2em 0.2em rgba(0, 0, 0, 0.35))
-            drop-shadow(0.2em 0.2em 0.2em rgba(0, 0, 0, 0.35))
-            drop-shadow(0.2em -0.2em 0.2em rgba(0, 0, 0, 0.35))
-            drop-shadow(-0.2em -0.2em 0.2em rgba(108, 63, 255, 1));
-
-    border-radius: 1em;
+    border: 1px solid $color-frame;
+    border-radius: 4px;
+    background-color: $color-background;
 }

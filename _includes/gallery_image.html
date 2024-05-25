@@ -1,0 +1,12 @@
+{% capture video_block %}
+
+<img class="rounded" src="{{include.url}}" alt="{{include.alt}}" height="280"/>
+
+{% endcapture %}
+
+{% include gallery_base.html 
+
+  title=include.title
+  content=video_block
+
+%}

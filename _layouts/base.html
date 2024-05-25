@@ -4,27 +4,35 @@
 
 <body>
     <div class="flex_row" style="gap: 1em; padding: 0em;">
-        {%- include navigator.html 
-        
-            title = "Portfolio"
-            href = "/"
+        {%- include navigator.html
+
+        title = "Portfolio"
+        href = "/"
 
         %}
 
-        {%- include navigator.html 
-        
-            title = "Blog"
-            href = "/posts.html" 
+        {%- include navigator.html
+
+        title = "Blog"
+        href = "/posts.html"
+
+        %}
+
+
+        {%- include navigator.html
+
+        title = "Experiments"
+        href = "/experiments.html"
 
         %}
     </div>
 
-    <hr/>
+    <hr />
 
     <div>
         {{content}}
     </div>
-    
+
 
     {%- include footer.html -%}
 </body>
