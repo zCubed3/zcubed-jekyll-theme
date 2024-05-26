@@ -1,11 +1,19 @@
 /*
+ * theme.scss - Control over the current theme
+ */
+
+/*
  * Colors
  */
 
 $color-background: rgb(20, 20, 20) !default;
 $color-background2: rgb(30, 30, 30) !default;
+$color-background3: rgb(40, 40, 40) !default;
 
 $color-frame: rgb(119, 74, 204) !default;
+$color-frame2: rgb(42, 34, 78) !default;
+
+$color-font-default: white !default;
 
 
 /*
@@ -19,6 +27,14 @@ $color-code-string: #D69D85 !default;
 $color-code-number: #B5CEA8 !default;
 $color-code-member: #BDB76B !default;
 $color-code-type: #FFD700 !default;
+
+
+/*
+ * Variables
+ */
+$border-thickness: 0.15em !default;
+$border-radius: 0.45em !default;
+
 
 /*
  * Fonts

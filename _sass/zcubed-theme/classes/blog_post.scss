@@ -1,0 +1,18 @@
+/*
+ * classes/blog_post.scss - Controls various elements used to style blog posts
+ */
+
+.post-meta {
+    color: gray;
+}
+
+.post_page {
+    overflow: clip;
+    width: 100%;
+    margin: 0px 1em 0px 1em;
+
+    background: $color-background2;
+    box-shadow: 0px 0px 1em black;
+
+    min-height: 100vh;
+}

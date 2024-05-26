@@ -1,0 +1,13 @@
+/*
+ * classes/misc.scss - Misc classes that mainly control filters / theming of an element
+ */
+
+.center_block {
+    display: block;
+    margin: auto;
+    left: 50%;
+}
+
+.rounded {
+    border-radius: 0.45em;
+}

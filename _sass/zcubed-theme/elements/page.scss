@@ -1,0 +1,12 @@
+/*
+ * page.scss - Controls the styling of the entire page
+ */
+
+html {
+    background: rgb(21, 19, 19);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+    font-family: $font-family-normal;
+    color: $color-font-default;
+}

@@ -1,5 +1,5 @@
 /*
- * divs.css - Defines commonly used divs within the page
+ * cards.css - Defines commonly used card-like divs within the page
  * Such as the project cards (and various permutations)
  */
 
@@ -31,9 +31,9 @@ project_card {
     width: 20em;
 
     background: rgb(20, 20, 20);
-    border: solid 0.15em rgb(119, 74, 204);
 
-    border-radius: 0.45em;
+    border: $border-thickness solid $color-frame;
+    border-radius: $border-radius;
 }
 
 project_card.auto_width {
@@ -83,8 +83,8 @@ section_card {
 
     /* backdrop-filter: blur(5em); */
 
-    border: solid 0.15em rgb(42, 34, 78);
-    border-radius: 0.45em;
+    border: $border-thickness solid $color-frame2;
+    border-radius: $border-radius;
 }
 
 section_card.auto_width {
@@ -100,18 +100,6 @@ page_card {
 
     filter: blur(0em, 0em, 0.2em, rgba(0, 0, 0, 0.35));
 
-    border: solid 0.15em rgb(119, 74, 204);
-    border-radius: 0.45em;
-}
-
-/* Posts */
-.post_page {
-    overflow: clip;
-    width: 100%;
-    margin: 0px 1em 0px 1em;
-
-    background: $color-background2;
-    box-shadow: 0px 0px 1em black;
-
-    min-height: 100vh;
+    border: $border-thickness solid $color-frame;
+    border-radius: $border-radius;
 }

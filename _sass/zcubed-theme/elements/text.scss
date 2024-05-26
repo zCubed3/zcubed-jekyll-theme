@@ -1,18 +1,13 @@
-/*
+/*                                
  * text.css - CSS styling of text
  */
-
-html {
-    font-family: $font-family-normal;
-    color: white;
-}
 
 /*
  * HYPERLINK PLACEHOLDER
  */
 a {
     color: #99c6ff;
-    transition: all ease 200ms;
+    transition: all ease 100ms;
 }
 
 a:visited {
@@ -29,10 +24,6 @@ a:hover {
 
 a:active {
     color: #c4e0ff;
-}
-
-h1 {
-    margin-bottom: 0.6em;
 }
 
 /*

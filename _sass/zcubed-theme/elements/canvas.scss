@@ -1,0 +1,9 @@
+/*                                   
+ * canvas.scss - Styling of canvases
+ */                                   
+
+canvas.mandlebrot {
+    border: $border-thickness solid $color-frame;
+    border-radius: $border-radius;
+    background-color: $color-background;
+}
